@@ -82,3 +82,19 @@ img{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .top-container {
+      width: 100%;
+    }
+
+    .middle-container{
+        width: 100%;
+    }
+
+    .bottom-container{
+        width: 100%;
+    }
+  }
